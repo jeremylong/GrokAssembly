@@ -14,10 +14,10 @@ dotnet ./GrokAssembly/bin/Debug/netcoreapp3.1/GrokAssembly.dll ./GrokAssembly/bi
 if [[ "$?" -eq 0 ]] ; then
   echo 
   echo 
-  echo "SUCCESS - dependency-check docker test passed"
+  echo "SUCCESS - GrokAssembly test passed"
 else
   echo 
   echo 
-  echo "FAILED - dependency-check docker test failed"
+  echo "FAILED - dependency-check GrokAssembly test failed"
   exit 1
 fi
