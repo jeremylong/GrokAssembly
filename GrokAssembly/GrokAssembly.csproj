@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
 
     <AssemblyTitle>GrokAssembly</AssemblyTitle>
     <AssemblyProduct>GrokAssembly</AssemblyProduct>
@@ -11,16 +11,16 @@
     <Description>Inspects a .NET Assembly to determine Company, Product, and Version information</Description>
     <AssemblyCompany>OWASP Foundation</AssemblyCompany>
     <AssemblyCopyright>Copyright © 2019, OWASP Foundation. All Rights Reserved</AssemblyCopyright>
-    <AssemblyVersion>3.3.0.0</AssemblyVersion>
-    <version>3.3.0.0</version>
+    <AssemblyVersion>3.4.0.0</AssemblyVersion>
+    <version>3.4.0.0</version>
     <PackageId>GrokAssembly</PackageId>
-    <PackageVersion>3.3.0.0</PackageVersion>
+    <PackageVersion>3.4.0.0</PackageVersion>
     <Authors>OWASP Contributors</Authors>
     <LicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</LicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Reflection.Metadata" Version="7.0.1" />
+    <PackageReference Include="System.Reflection.Metadata" Version="8.0.0" />
   </ItemGroup>
 
 </Project>

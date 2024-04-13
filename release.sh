@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
-PUBLISH=./GrokAssembly/bin/Release/net7.0/publish
-TEMP=./GrokAssembly/bin/Release/net7.0/temp
+PUBLISH=./GrokAssembly/bin/Release/net8.0/publish
+TEMP=./GrokAssembly/bin/Release/net8.0/temp
 
 echo "clean"
 dotnet clean --configuration Release
@@ -11,7 +11,7 @@ echo "publish"
 dotnet publish --configuration Release
 echo "package"
 
-dotnet ./GrokAssembly/bin/Release/net7.0/publish/GrokAssembly.dll ./GrokAssembly/bin/Release/net7.0/publish/GrokAssembly.dll
+dotnet ./GrokAssembly/bin/Release/net8.0/publish/GrokAssembly.dll ./GrokAssembly/bin/Release/net8.0/publish/GrokAssembly.dll
 
 if [[ "$?" -eq 0 ]] ; then
   echo "SUCCESS - GrokAssembly test passed"
