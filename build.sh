@@ -10,7 +10,8 @@ dotnet build
 dotnet publish
 echo "build complete"
 
-dotnet ./GrokAssembly/bin/Debug/net7.0/GrokAssembly.dll ./GrokAssembly/bin/Debug/net7.0/GrokAssembly.dll
+dotnet ./GrokAssembly/bin/Debug/net8.0/GrokAssembly.dll ./GrokAssembly/bin/Debug/net8.0/GrokAssembly.dll
+
 if [[ "$?" -eq 0 ]] ; then
   echo 
   echo 
